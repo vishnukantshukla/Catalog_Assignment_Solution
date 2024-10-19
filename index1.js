@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// const jsonFilePath = path.join(__dirname, 'polynomial_data2.json');
+const jsonFilePath = path.join(__dirname, 'test_case_1_polynomial_data.json');
 function v1_decode_of_Value(value, base) {
     return parseInt(value, base); 
 }
